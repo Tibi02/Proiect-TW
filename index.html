@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filme</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Libraria de filme</h1>
+
+    <div id="form-container">
+    <h2>Adauga sau modifica filmele</h2>
+    <form id="movie-form">
+        <label for="name">Nume:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="image">Sursa imaginii:</label>
+        <input type="text" id="image" name="image" required>
+
+        <button type="button" onclick="addMovie()">Adauga</button>
+        <button type="button" onclick="editMovie()">Salveaza</button>
+    </form>
+    </div>
+
+    <div id="content"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

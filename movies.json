@@ -1,0 +1,19 @@
+{
+    "movies": [
+        {
+            "title": "John Wick 1",
+            "poster": "johnwick1.jpg",
+            "id": "ec887f8e-0323-4121-9a71-d27896c9ad4a"
+        },
+        {
+            "title": "The Notebook ",
+            "poster": "thenotebook.jpg",
+            "id": "816f125f-63f2-4487-b388-3e5d1fc58f24"
+        },
+        {
+            "title": "Interstellar",
+            "poster": "interstellar.jpg",
+            "id": "a0955b3d-9c4f-44a8-a5bb-4e055068af8b"
+        }
+    ]
+}

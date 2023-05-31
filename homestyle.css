@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.top-container{
+    background-image: url("homebackground.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top-container h1{
+    color:white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.text1{
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("homebackground1.jpg");
+}
+
+.text2{
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("homebackground2.jpg");
+}
+
+.text3{
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("homebackground3.jpg");
+}
+
+.text4{
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("homebackground4.jpg");
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.4s;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(34, 200, 242);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar ul li a:hover{
+    color: red;
+}
+
+.navbar.active{
+    background-color: black;
+}
+
+.navbar.active ul li a{
+    color: white;
+}
